@@ -1,0 +1,47 @@
+# Secrets / credentials
+.env
+*.key
+*.pem
+*.crt
+credentials*
+secrets/
+tokens/
+api_keys.txt
+
+# Configuration files with sensitive data
+ossec.conf
+config.xml
+*.conf.backup
+
+# Virtual machines
+*.vmdk
+*.vdi
+*.ova
+*.ovf
+*.iso
+*.vmx
+*.nvram
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Docker data
+docker-data/
+volumes/
+data/
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# System files
+.DS_Store
+Thumbs.db
